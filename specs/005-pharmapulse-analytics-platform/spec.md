@@ -5,7 +5,18 @@
 **Status**: Draft  
 **Input**: User description: """
 # PharmaPulse Analytics Platform
-## Requirements Document
+## Requirements Document"""
+
+## Clarifications
+
+### Session 2025-09-24
+- Q: What specific functionalities are explicitly out of scope for the initial release of the PharmaPulse Analytics Platform? → A: Security Testing
+- Q: Are there specific identity or uniqueness rules for core data entities (e.g., Sales Transactions, Product Master) that need to be enforced beyond primary keys? → A: no
+- Q: Are there any specific accessibility standards (e.g., WCAG conformance level) or localization requirements for the user interface? → A: no
+- Q: What specific tools or standards should be used for structured logging, metrics collection, and distributed tracing across the platform? → A: no specific tools or standards
+- Q: How should concurrent edits or conflicting data updates be resolved, particularly in collaborative features or data ingestion? → A: For critical data like financial transactions, locking or concurrency control should be used so that once committed, there is only one source of truth
+
+**Out-of-Scope:** Initial release will not include comprehensive security testing as part of the core development, but will be addressed in a subsequent phase.
 
 **Document Version:** 1.0  
 **Date:** September 2025  
