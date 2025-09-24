@@ -1,0 +1,169 @@
+openapi: 3.0.0
+info:
+  title: Sales Transactions API
+  version: 1.0.0
+paths:
+  /sales-transactions:
+    get:
+      summary: Get all sales transactions
+      responses:
+        '200':
+          description: A list of sales transactions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SalesTransaction'
+    post:
+      summary: Create a new sales transaction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SalesTransactionInput'
+      responses:
+        '201':
+          description: Sales transaction created
+  /sales-transactions/{id}:
+    get:
+      summary: Get a sales transaction by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+          description: ID of the sales transaction to retrieve
+      responses:
+        '200':
+          description: A single sales transaction
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SalesTransaction'
+        '404':
+          description: Sales transaction not found
+    put:
+      summary: Update a sales transaction by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+          description: ID of the sales transaction to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SalesTransactionInput'
+      responses:
+        '200':
+          description: Sales transaction updated
+        '404':
+          description: Sales transaction not found
+    delete:
+      summary: Delete a sales transaction by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+          description: ID of the sales transaction to delete
+      responses:
+        '204':
+          description: Sales transaction deleted
+        '404':
+          description: Sales transaction not found
+components:
+  schemas:
+    SalesTransaction:
+      type: object
+      properties:
+        transactionId:
+          type: string
+          format: uuid
+        date:
+          type: string
+          format: date
+        amount:
+          type: number
+          format: float
+        productId:
+          type: string
+        territoryId:
+          type: string
+        salesRepId:
+          type: string
+        customerId:
+          type: string
+        channel:
+          type: string
+        promotionalCode:
+          type: string
+        quantity:
+          type: integer
+        unitPrice:
+          type: number
+          format: float
+        discount:
+          type: number
+          format: float
+        commission:
+          type: number
+          format: float
+      required:
+        - transactionId
+        - date
+        - amount
+        - productId
+        - territoryId
+        - salesRepId
+        - customerId
+        - quantity
+        - unitPrice
+    SalesTransactionInput:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+        amount:
+          type: number
+          format: float
+        productId:
+          type: string
+        territoryId:
+          type: string
+        salesRepId:
+          type: string
+        customerId:
+          type: string
+        channel:
+          type: string
+        promotionalCode:
+          type: string
+        quantity:
+          type: integer
+        unitPrice:
+          type: number
+          format: float
+        discount:
+          type: number
+          format: float
+        commission:
+          type: number
+          format: float
+      required:
+        - date
+        - amount
+        - productId
+        - territoryId
+        - salesRepId
+        - customerId
+        - quantity
+        - unitPrice

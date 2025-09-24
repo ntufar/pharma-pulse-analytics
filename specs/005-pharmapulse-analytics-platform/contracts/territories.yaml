@@ -1,0 +1,129 @@
+openapi: 3.0.0
+info:
+  title: Territories API
+  version: 1.0.0
+paths:
+  /territories:
+    get:
+      summary: Get all territories
+      responses:
+        '200':
+          description: A list of territories
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Territory'
+    post:
+      summary: Create a new territory
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TerritoryInput'
+      responses:
+        '201':
+          description: Territory created
+  /territories/{id}:
+    get:
+      summary: Get a territory by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+          description: ID of the territory to retrieve
+      responses:
+        '200':
+          description: A single territory
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Territory'
+        '404':
+          description: Territory not found
+    put:
+      summary: Update a territory by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+          description: ID of the territory to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TerritoryInput'
+      responses:
+        '200':
+          description: Territory updated
+        '404':
+          description: Territory not found
+    delete:
+      summary: Delete a territory by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+          description: ID of the territory to delete
+      responses:
+        '204':
+          description: Territory deleted
+        '404':
+          description: Territory not found
+components:
+  schemas:
+    Territory:
+      type: object
+      properties:
+        territoryId:
+          type: string
+          format: uuid
+        name:
+          type: string
+        region:
+          type: string
+        country:
+          type: string
+        populationDemographics:
+          type: string
+        marketSize:
+          type: string
+        assignedSalesRepresentatives:
+          type: array
+          items:
+            type: string
+      required:
+        - territoryId
+        - name
+        - region
+        - country
+    TerritoryInput:
+      type: object
+      properties:
+        name:
+          type: string
+        region:
+          type: string
+        country:
+          type: string
+        populationDemographics:
+          type: string
+        marketSize:
+          type: string
+        assignedSalesRepresentatives:
+          type: array
+          items:
+            type: string
+      required:
+        - name
+        - region
+        - country
