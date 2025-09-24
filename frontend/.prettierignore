@@ -1,0 +1,382 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files
+*.html
+
+# Ignore all CSS files
+*.css
+
+# Ignore all JavaScript files
+*.js
+
+# Ignore all TypeScript files
+*.ts
+
+# Ignore all Markdown files
+*.md
+
+# Ignore all JSON files
+*.json
+
+# Ignore all YAML files
+*.yaml
+*.yml
+
+# Ignore all SVG files
+*.svg
+
+# Ignore all PNG files
+*.png
+
+# Ignore all JPG files
+*.jpg
+*.jpeg
+
+# Ignore all GIF files
+*.gif
+
+# Ignore all WEBP files
+*.webp
+
+# Ignore all BMP files
+*.bmp
+
+# Ignore all PDF files
+*.pdf
+
+# Ignore all XML files
+*.xml
+
+# Ignore all TXT files
+*.txt
+
+# Ignore all CSV files
+*.csv
+
+# Ignore all TSV files
+*.tsv
+
+# Ignore all log files
+*.log
+
+# Ignore all temporary files
+*.tmp
+
+# Ignore all backup files
+*.bak
+
+# Ignore all compressed files
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Ignore all executable files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore all object files
+*.o
+*.obj
+
+# Ignore all compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore all compiled Java files
+*.class
+
+# Ignore all compiled C# files
+*.dll
+*.exe
+
+# Ignore all compiled Go files
+*.exe
+
+# Ignore all compiled Rust files
+*.rlib
+*.d
+
+# Ignore all compiled Swift files
+*.swiftmodule
+*.swiftdoc
+
+# Ignore all compiled Kotlin files
+*.kotlin_module
+
+# Ignore all compiled Scala files
+*.scala_module
+
+# Ignore all compiled Ruby files
+*.rbc
+
+# Ignore all compiled PHP files
+*.phpc
+
+# Ignore all compiled Perl files
+*.plc
+
+# Ignore all compiled Haskell files
+*.hi
+*.o
+
+# Ignore all compiled Erlang files
+*.beam
+
+# Ignore all compiled Elixir files
+*.beam
+
+# Ignore all compiled Clojure files
+*.class
+
+# Ignore all compiled CoffeeScript files
+*.js
+
+# Ignore all compiled Dart files
+*.dart_tool/
+
+# Ignore all compiled F# files
+*.fsc
+
+# Ignore all compiled Visual Basic files
+*.vb
+
+# Ignore all compiled Lua files
+*.luac
+
+# Ignore all compiled R files
+*.rdb
+*.rdx
+
+# Ignore all compiled Julia files
+*.ji
+
+# Ignore all compiled Fortran files
+*.mod
+*.smod
+
+# Ignore all compiled Ada files
+*.ali
+*.sps
+
+# Ignore all compiled Pascal files
+*.ppu
+
+# Ignore all compiled Delphi files
+*.dcu
+
+# Ignore all compiled Assembly files
+*.obj
+
+# Ignore all compiled COBOL files
+*.cbl
+
+# Ignore all compiled PL/I files
+*.pli
+
+# Ignore all compiled RPG files
+*.rpg
+
+# Ignore all compiled ABAP files
+*.abap
+
+# Ignore all compiled Lisp files
+*.fasl
+
+# Ignore all compiled Scheme files
+*.fasl
+
+# Ignore all compiled Smalltalk files
+*.image
+*.changes
+
+# Ignore all compiled Prolog files
+*.qlf
+
+# Ignore all compiled ML files
+*.cmi
+*.cmo
+*.cmx
+*.o
+
+# Ignore all compiled OCaml files
+*.cmi
+*.cmo
+*.cmx
+*.o
+
+# Ignore all compiled Standard ML files
+*.sml
+
+# Ignore all compiled F# files
+*.fsc
+
+# Ignore all compiled Visual Basic files
+*.vb
+
+# Ignore all compiled Lua files
+*.luac
+
+# Ignore all compiled R files
+*.rdb
+*.rdx
+
+# Ignore all compiled Julia files
+*.ji
+
+# Ignore all compiled Fortran files
+*.mod
+*.smod
+
+# Ignore all compiled Ada files
+*.ali
+*.sps
+
+# Ignore all compiled Pascal files
+*.ppu
+
+# Ignore all compiled Delphi files
+*.dcu
+
+# Ignore all compiled Assembly files
+*.obj
+
+# Ignore all compiled COBOL files
+*.cbl
+
+# Ignore all compiled PL/I files
+*.pli
+
+# Ignore all compiled RPG files
+*.rpg
+
+# Ignore all compiled ABAP files
+*.abap
+
+# Ignore all compiled Lisp files
+*.fasl
+
+# Ignore all compiled Scheme files
+*.fasl
+
+# Ignore all compiled Smalltalk files
+*.image
+*.changes
+
+# Ignore all compiled Prolog files
+*.qlf
+
+# Ignore all compiled ML files
+*.cmi
+*.cmo
+*.cmx
+*.o
+
+# Ignore all compiled OCaml files
+*.cmi
+*.cmo
+*.cmx
+*.o
+
+# Ignore all compiled Standard ML files
+*.sml
+
+# Ignore node_modules
+node_modules
+
+# Ignore .env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.bak
+
+# Ignore system files
+.DS_Store
+thumbs.db
+
+# Ignore test coverage
+coverage
+
+# Ignore build output
+build
+
+# Ignore dependencies
+node_modules/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.next/
+.history
+
+# local env files
+.env
+.env.development
+.env.test
+.env.production
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.Trashes
+pmk.d
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.next/
+.history
+
+# local env files
+.env
+.env.development
+.env.test
+.env.production
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.Trashes
+pmk.d

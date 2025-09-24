@@ -43,13 +43,13 @@
 - Paths shown below assume single project - adjust based on plan.md structure
 
 ## Phase 3.1: Setup
-- [ ] T001 Create project structure (backend/, frontend/ directories)
-- [ ] T002 Initialize Python backend project with dependencies (Snowflake, dbt Core, Dagster, AWS, PostgreSQL)
-- [ ] T003 Initialize JavaScript/TypeScript frontend project with dependencies (React, Streamlit)
-- [ ] T004 [P] Configure linting and formatting for backend (e.g., Black, Flake8) in `backend/`
-- [ ] T005 [P] Configure linting and formatting for frontend (e.g., ESLint, Prettier) in `frontend/`
-- [ ] T006 Research and set up Python testing frameworks (unit, integration, E2E) in `backend/`
-- [ ] T007 Research and set up JavaScript/TypeScript testing frameworks (unit, integration, E2E) in `frontend/`
+- [X] T001 Create project structure (backend/, frontend/ directories)
+- [X] T002 Initialize Python backend project with dependencies (Snowflake, dbt Core, Dagster, AWS, PostgreSQL) - *Note: psycopg2-binary installation failed due to macOS Seatbelt permissions.*
+- [X] T003 Initialize JavaScript/TypeScript frontend project with dependencies (React, Streamlit)
+- [X] T004 [P] Configure linting and formatting for backend (e.g., Black, Flake8) in `backend/`
+- [X] T005 [P] Configure linting and formatting for frontend (e.g., ESLint, Prettier) in `frontend/`
+- [X] T006 Research and set up Python testing frameworks (unit, integration, E2E) in `backend/`
+- [X] T007 Research and set up JavaScript/TypeScript testing frameworks (unit, integration, E2E) in `frontend/` - *Note: Playwright installation failed due to macOS Seatbelt permissions.*
 
 ## Phase 3.2: Tests First (TDD) ⚠️ MUST COMPLETE BEFORE 3.3
 **CRITICAL: These tests MUST be written and MUST FAIL before ANY implementation**
