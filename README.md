@@ -1,21 +1,21 @@
-# PharmaPulse Analytics Platform - Gemini CLI Agent Workspace
+# PharmaPulse Analytics Platform
 
-This repository serves as the operational root for a Gemini CLI agent, specifically configured to manage the development lifecycle of the **PharmaPulse Analytics Platform**. It encapsulates all necessary configurations, scripts, and documentation for the agent to effectively create, plan, implement, and maintain features for the platform.
+This repository contains the **PharmaPulse Analytics Platform**, a Commercial Data Platform (CDP) designed to provide comprehensive analytics and insights for pharmaceutical sales operations. It encapsulates all necessary configurations, scripts, and documentation for the platform's development lifecycle.
 
 ## Project Overview
 
 The PharmaPulse Analytics Platform is a Commercial Data Platform (CDP) designed to provide comprehensive analytics and insights for pharmaceutical sales operations. This workspace facilitates the agent-driven development of this platform, demonstrating modern data stack architecture, migration management, and best practices for data governance and user management.
 
-## Features & Capabilities of the Gemini CLI Agent
+## Development Workflow & Artifacts
 
-Within this workspace, the Gemini CLI agent is equipped to:
+Within this workspace, the development workflow supports:
 
-*   **Manage Project Constitution:** Define and enforce core principles, governance, and development standards.
-*   **Create Feature Specifications:** Generate detailed `spec.md` files from natural language descriptions or existing PRDs.
-*   **Plan Implementations:** Develop comprehensive `plan.md` documents, outlining technical approaches, data models, and contracts.
-*   **Generate Tasks:** Break down implementation plans into actionable, dependency-ordered tasks in `tasks.md`.
-*   **Analyze & Clarify:** Perform consistency checks across artifacts and identify ambiguities in specifications.
-*   **Execute Implementations:** Drive the development process by executing defined tasks.
+*   **Project Constitution:** Core principles, governance, and development standards are defined and enforced.
+*   **Feature Specifications:** Detailed `spec.md` files are created from natural language descriptions or existing PRDs.
+*   **Implementation Plans:** Comprehensive `plan.md` documents are developed, outlining technical approaches, data models, and contracts.
+*   **Task Generation:** Implementation plans are broken down into actionable, dependency-ordered tasks in `tasks.md`.
+*   **Analysis & Clarification:** Consistency checks are performed across artifacts, and ambiguities in specifications are identified.
+*   **Implementation Execution:** The development process is driven by executing defined tasks.
 
 ## Project Structure
 
@@ -35,7 +35,6 @@ Within this workspace, the Gemini CLI agent is equipped to:
 ### Prerequisites
 
 *   **Git:** For version control.
-*   **Gemini CLI:** The command-line interface for interacting with the Gemini agent.
 
 ### Cloning the Repository
 
@@ -54,21 +53,21 @@ git checkout master
 
 ## Usage
 
-Interact with the Gemini CLI agent using the `/` commands. The agent will guide you through the development process.
+This repository supports a structured development workflow. Key artifacts and processes are managed through specific commands or tools.
 
-### Common Commands
+### Common Workflow Steps
 
-*   `/specify <feature description>`: Create a new feature specification. For example, to create a spec from `docs/PRD.md`:
+*   **Feature Specification Creation:** To create a new feature specification from a PRD, provide the content of your PRD to the relevant tool or command. For example, using `docs/PRD.md`:
     ```
-    /specify <content of docs/PRD.md>
+    <tool_or_command> <content of docs/PRD.md>
     ```
-    *(Note: The agent expects the actual content of the PRD, not just the filename.)*
+    *(Note: The tool/command expects the actual content of the PRD, not just the filename.)*
 
-*   `/plan`: Generate an implementation plan based on an existing feature specification.
+*   **Implementation Planning:** Generate an implementation plan based on an existing feature specification.
 
-*   `/clarify`: Identify and resolve ambiguities in a feature specification.
+*   **Ambiguity Resolution:** Identify and resolve ambiguities in a feature specification.
 
-*   `/constitution`: View or update the project's governing principles.
+*   **Project Constitution Management:** View or update the project's governing principles.
 
 ## Contributing
 
