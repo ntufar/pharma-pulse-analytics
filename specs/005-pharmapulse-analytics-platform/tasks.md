@@ -88,7 +88,7 @@
 - [X] T036 Integrate frontend with Customer API
 - [X] T037 Integrate frontend with Product API
 - [X] T038 Integrate frontend with Sales Transaction API
-- [ ] T039 Integrate frontend with User API
+- [X] T039 Integrate frontend with User API
 
 ## Phase 3.5: Polish
 - [ ] T040 [P] Write unit tests for `SalesTransaction` model in `backend/tests/unit/test_sales_transaction_model.py`
