@@ -81,7 +81,7 @@
 - [X] T031 Implement User API endpoints (`/users`, `/users/{id}`) in `backend/src/api/users.py`
 
 ## Phase 3.4: Integration
-- [ ] T032 Configure database connection for backend (Snowflake/PostgreSQL)
+- [X] T032 Configure database connection for backend (Snowflake/PostgreSQL)
 - [ ] T033 Implement authentication middleware
 - [ ] T034 Implement request/response logging
 - [ ] T035 Configure CORS and security headers
