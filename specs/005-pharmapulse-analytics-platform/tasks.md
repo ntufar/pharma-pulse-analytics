@@ -75,10 +75,10 @@
 - [X] T025 Implement `ProductService` (CRUD) in `backend/src/services/product_service.py`
 - [X] T026 Implement `SalesTransactionService` (CRUD) in `backend/src/services/sales_transaction_service.py`
 - [X] T027 Implement `UserService` (CRUD) in `backend/src/services/user_service.py`
-- [ ] T028 Implement Customer API endpoints (`/customers`, `/customers/{id}`) in `backend/src/api/customers.py`
-- [ ] T029 Implement Product API endpoints (`/products`, `/products/{id}`) in `backend/src/api/products.py`
-- [ ] T030 Implement Sales Transaction API endpoints (`/sales-transactions`, `/sales-transactions/{id}`) in `backend/src/api/sales_transactions.py`
-- [ ] T031 Implement User API endpoints (`/users`, `/users/{id}`) in `backend/src/api/users.py`
+- [X] T028 Implement Customer API endpoints (`/customers`, `/customers/{id}`) in `backend/src/api/customers.py`
+- [X] T029 Implement Product API endpoints (`/products`, `/products/{id}`) in `backend/src/api/products.py`
+- [X] T030 Implement Sales Transaction API endpoints (`/sales-transactions`, `/sales-transactions/{id}`) in `backend/src/api/sales_transactions.py`
+- [X] T031 Implement User API endpoints (`/users`, `/users/{id}`) in `backend/src/api/users.py`
 
 ## Phase 3.4: Integration
 - [ ] T032 Configure database connection for backend (Snowflake/PostgreSQL)
