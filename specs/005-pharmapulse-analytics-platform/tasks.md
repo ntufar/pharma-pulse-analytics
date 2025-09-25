@@ -67,10 +67,10 @@
 - [X] T019 [P] Integration test API Access in `backend/tests/integration/test_api_access.py`
 
 ## Phase 3.3: Core Implementation (ONLY after tests are failing)
-- [ ] T020 [P] Implement `SalesTransaction` model in `backend/src/models/sales_transaction.py`
-- [ ] T021 [P] Implement `Product` model in `backend/src/models/product.py`
-- [ ] T022 [P] Implement `Territory` model in `backend/src/models/territory.py`
-- [ ] T023 [P] Implement `Customer` model in `backend/src/models/customer.py`
+- [X] T020 [P] Implement `SalesTransaction` model in `backend/src/models/sales_transaction.py`
+- [X] T021 [P] Implement `Product` model in `backend/src/models/product.py`
+- [X] T022 [P] Implement `Territory` model in `backend/src/models/territory.py`
+- [X] T023 [P] Implement `Customer` model in `backend/src/models/customer.py`
 - [ ] T024 Implement `CustomerService` (CRUD) in `backend/src/services/customer_service.py`
 - [ ] T025 Implement `ProductService` (CRUD) in `backend/src/services/product_service.py`
 - [ ] T026 Implement `SalesTransactionService` (CRUD) in `backend/src/services/sales_transaction_service.py`
