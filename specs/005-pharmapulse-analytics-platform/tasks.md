@@ -87,7 +87,7 @@
 - [X] T035 Configure CORS and security headers
 - [X] T036 Integrate frontend with Customer API
 - [X] T037 Integrate frontend with Product API
-- [ ] T038 Integrate frontend with Sales Transaction API
+- [X] T038 Integrate frontend with Sales Transaction API
 - [ ] T039 Integrate frontend with User API
 
 ## Phase 3.5: Polish
