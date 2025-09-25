@@ -71,10 +71,10 @@
 - [X] T021 [P] Implement `Product` model in `backend/src/models/product.py`
 - [X] T022 [P] Implement `Territory` model in `backend/src/models/territory.py`
 - [X] T023 [P] Implement `Customer` model in `backend/src/models/customer.py`
-- [ ] T024 Implement `CustomerService` (CRUD) in `backend/src/services/customer_service.py`
-- [ ] T025 Implement `ProductService` (CRUD) in `backend/src/services/product_service.py`
-- [ ] T026 Implement `SalesTransactionService` (CRUD) in `backend/src/services/sales_transaction_service.py`
-- [ ] T027 Implement `UserService` (CRUD) in `backend/src/services/user_service.py`
+- [X] T024 Implement `CustomerService` (CRUD) in `backend/src/services/customer_service.py`
+- [X] T025 Implement `ProductService` (CRUD) in `backend/src/services/product_service.py`
+- [X] T026 Implement `SalesTransactionService` (CRUD) in `backend/src/services/sales_transaction_service.py`
+- [X] T027 Implement `UserService` (CRUD) in `backend/src/services/user_service.py`
 - [ ] T028 Implement Customer API endpoints (`/customers`, `/customers/{id}`) in `backend/src/api/customers.py`
 - [ ] T029 Implement Product API endpoints (`/products`, `/products/{id}`) in `backend/src/api/products.py`
 - [ ] T030 Implement Sales Transaction API endpoints (`/sales-transactions`, `/sales-transactions/{id}`) in `backend/src/api/sales_transactions.py`
